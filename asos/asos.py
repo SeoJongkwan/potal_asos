@@ -37,5 +37,5 @@ df = pd.DataFrame(item)
 df['tm'] = pd.to_datetime(df['tm'], format='%Y-%m-%d %H:%M')
 asos = df[['tm', 'ta']]
 
-asos.to_csv('/Users/bellk/PycharmProjects/asos/asos_{}_{}.csv'.format(start, stnIds), index=False)
+asos.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/asos_{}_{}.csv'.format(start, stnIds), index=False)
 print('stnIds: {} / date: {} - {}'.format(stnIds, start, end))

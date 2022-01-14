@@ -18,7 +18,7 @@ ny = 125
 params = "?" + urlencode({
     'serviceKey': c_cert_key,
     'pageNo': 1,
-    'numOfRows': 10000,
+    'numOfRows': 1000,
     'dataType': 'JSON',
     'base_date': date1,
     'base_time': 1700,
@@ -43,5 +43,5 @@ def extract_temp():
     return df2
 
 village = extract_temp()
-village.to_csv('/Users/bellk/PycharmProjects/asos/village_{}_{}_{}.csv'.format(date1, nx, ny), index=False)
+village.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/village_{}_{}_{}.csv'.format(date1, nx, ny), index=False)
 print("date: {} - nx:{} / ny:{}".format(date1, nx, ny))

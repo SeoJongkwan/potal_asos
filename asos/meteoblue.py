@@ -40,7 +40,7 @@ df1['time'] = pd.to_datetime(df1['time'], format='%Y-%m-%d %H:%M')
 
 weather = df1[['time', 'temperature']]
 start = weather['time'].dt.strftime('%Y%m%d')[0]
-weather.to_csv('/Users/bellk/PycharmProjects/asos/meteoblue_{}_{}_{}.csv'.format(start, lat, lon), index=False)
+weather.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/meteoblue_{}_{}_{}.csv'.format(start, lat, lon), index=False)
 print("date: {} - lon:{} / lat:{}".format(start, lon, lat))
 
 
