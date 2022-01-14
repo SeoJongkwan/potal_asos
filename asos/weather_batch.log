@@ -1,0 +1,5 @@
+Fri Jan 14 16:48:00 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-14 00:00', 'modelrun_updatetime_utc': '2022-01-14 07:19'}
+date: 20220114 - lon:127.03 / lat:37.49
+date: 20220113 - nx:61 / ny:125
+stnIds: 108 / date: 20220111 - 20220113
