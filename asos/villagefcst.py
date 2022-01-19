@@ -13,8 +13,8 @@ c_cert_key = "oEXb0KBtqI8V3TJAj1lmb9ZgDq8pwKDDnk2dAlaRpRltMNYuoTCT%2B1hlmImqXNWj
 
 date = datetime.now() - timedelta(1)
 date1 = date.strftime("%Y%m%d")
-nx = 61
-ny = 125
+nx = 55
+ny = 68
 params = "?" + urlencode({
     'serviceKey': c_cert_key,
     'pageNo': 1,
@@ -22,8 +22,8 @@ params = "?" + urlencode({
     'dataType': 'JSON',
     'base_date': date1,
     'base_time': 1700,
-    'nx': nx,       #127.03
-    'ny': ny       #37.49
+    'nx': nx,
+    'ny': ny
 })
 
 res = requests.get(c_url+unquote(params)).json()
@@ -43,5 +43,5 @@ def extract_temp():
     return df2
 
 village = extract_temp()
-village.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/village_{}_{}_{}.csv'.format(date1, nx, ny), index=False)
+village.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/data/village_{}_{}_{}.csv'.format(date1, nx, ny), index=False)
 print("date: {} - nx:{} / ny:{}".format(date1, nx, ny))

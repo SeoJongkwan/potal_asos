@@ -15,7 +15,7 @@ start1 = datetime.now() - timedelta(3)
 start = start1.strftime("%Y%m%d")
 end1 = datetime.now() - timedelta(1)
 end = end1.strftime("%Y%m%d")
-stnIds = 108
+stnIds = 260
 
 params = "?" + urlencode({
     'serviceKey': c_cert_key,
@@ -37,5 +37,5 @@ df = pd.DataFrame(item)
 df['tm'] = pd.to_datetime(df['tm'], format='%Y-%m-%d %H:%M')
 asos = df[['tm', 'ta']]
 
-asos.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/asos_{}_{}.csv'.format(start, stnIds), index=False)
+asos.to_csv('/Users/bellk/PycharmProjects/potal_asos/asos/data/asos_{}_{}.csv'.format(end, stnIds), index=False)
 print('stnIds: {} / date: {} - {}'.format(stnIds, start, end))

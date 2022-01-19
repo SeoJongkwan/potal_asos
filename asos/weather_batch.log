@@ -6,3 +6,195 @@ Traceback (most recent call last):
     item = res['response']['body']['items']['item']
 KeyError: 'body'
 stnIds: 108 / date: 20220111 - 20220113
+Fri Jan 14 18:00:01 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-14 00:00', 'modelrun_updatetime_utc': '2022-01-14 07:19'}
+date: 20220114 - lon:127.03 / lat:37.49
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/villagefcst.py", line 30, in <module>
+    item = res['response']['body']['items']['item']
+KeyError: 'body'
+stnIds: 108 / date: 20220111 - 20220113
+Sat Jan 15 10:00:00 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-14 12:00', 'modelrun_updatetime_utc': '2022-01-14 19:10'}
+date: 20220115 - lon:127.03 / lat:37.49
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/villagefcst.py", line 29, in <module>
+    res = requests.get(c_url+unquote(params)).json()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/asos.py", line 34, in <module>
+    res = requests.get(c_url+unquote(params)).json()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Sun Jan 16 10:00:01 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-15 12:00', 'modelrun_updatetime_utc': '2022-01-15 20:01'}
+date: 20220116 - lon:127.03 / lat:37.49
+date: 20220115 - nx:61 / ny:125
+stnIds: 108 / date: 20220113 - 20220115
+Mon Jan 17 10:00:00 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-16 12:00', 'modelrun_updatetime_utc': '2022-01-16 18:58'}
+date: 20220117 - lon:127.03 / lat:37.49
+date: 20220116 - nx:61 / ny:125
+stnIds: 108 / date: 20220114 - 20220116
+Mon Jan 17 12:00:00 KST 2022
+meta:  {'name': '', 'latitude': 37.49, 'longitude': 127.03, 'height': 29, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-16 12:00', 'modelrun_updatetime_utc': '2022-01-16 18:58'}
+date: 20220117 - lon:127.03 / lat:37.49
+date: 20220116 - nx:61 / ny:125
+stnIds: 108 / date: 20220114 - 20220116
+Mon Jan 17 14:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-16 12:00', 'modelrun_updatetime_utc': '2022-01-16 18:58'}
+date: 20220117 - lon:126.681 / lat:34.876
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/villagefcst.py", line 29, in <module>
+    res = requests.get(c_url+unquote(params)).json()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+stnIds: 260 / date: 20220114 - 20220116
+Mon Jan 17 16:00:01 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 00:00', 'modelrun_updatetime_utc': '2022-01-17 06:59'}
+date: 20220117 - lon:126.681 / lat:34.876
+date: 20220116 - nx:55 / ny:68
+stnIds: 260 / date: 20220114 - 20220116
+Mon Jan 17 18:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 00:00', 'modelrun_updatetime_utc': '2022-01-17 06:59'}
+date: 20220117 - lon:126.681 / lat:34.876
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/villagefcst.py", line 30, in <module>
+    item = res['response']['body']['items']['item']
+KeyError: 'body'
+stnIds: 260 / date: 20220114 - 20220116
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 00:00', 'modelrun_updatetime_utc': '2022-01-17 06:59', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220117 - lon:126.681 / lat:34.876
+Tue Jan 18 10:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 12:00', 'modelrun_updatetime_utc': '2022-01-17 18:59'}
+date: 20220118 - lon:126.681 / lat:34.876
+date: 20220117 - nx:55 / ny:68
+stnIds: 260 / date: 20220115 - 20220117
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 12:00', 'modelrun_updatetime_utc': '2022-01-17 18:59', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220118 - lon:126.681 / lat:34.876
+Tue Jan 18 14:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 12:00', 'modelrun_updatetime_utc': '2022-01-17 18:59'}
+date: 20220118 - lon:126.681 / lat:34.876
+date: 20220117 - nx:55 / ny:68
+stnIds: 260 / date: 20220115 - 20220117
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-17 12:00', 'modelrun_updatetime_utc': '2022-01-17 18:59', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220118 - lon:126.681 / lat:34.876
+Tue Jan 18 16:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 00:00', 'modelrun_updatetime_utc': '2022-01-18 06:58'}
+date: 20220118 - lon:126.681 / lat:34.876
+date: 20220117 - nx:55 / ny:68
+stnIds: 260 / date: 20220115 - 20220117
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 00:00', 'modelrun_updatetime_utc': '2022-01-18 06:58', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220118 - lon:126.681 / lat:34.876
+Tue Jan 18 18:00:01 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 00:00', 'modelrun_updatetime_utc': '2022-01-18 06:58'}
+date: 20220118 - lon:126.681 / lat:34.876
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/villagefcst.py", line 30, in <module>
+    item = res['response']['body']['items']['item']
+KeyError: 'body'
+stnIds: 260 / date: 20220115 - 20220117
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 00:00', 'modelrun_updatetime_utc': '2022-01-18 06:58', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220118 - lon:126.681 / lat:34.876
+Wed Jan 19 10:00:01 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42'}
+date: 20220119 - lon:126.681 / lat:34.876
+date: 20220118 - nx:55 / ny:68
+stnIds: 260 / date: 20220116 - 20220118
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220119 - lon:126.681 / lat:34.876
+rtu_id: 0004_0001_W_0001
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/real.py", line 49, in <module>
+    env.to_csv("data/env_{}.csv".format(date), index=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/generic.py", line 3466, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 237, in save
+    with get_handle(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/env_20220119.csv'
+Wed Jan 19 12:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42'}
+date: 20220119 - lon:126.681 / lat:34.876
+date: 20220118 - nx:55 / ny:68
+stnIds: 260 / date: 20220116 - 20220118
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220119 - lon:126.681 / lat:34.876
+rtu_id: 0004_0001_W_0001
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/real.py", line 49, in <module>
+    env.to_csv("data/env_{}.csv".format(date), index=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/generic.py", line 3466, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 237, in save
+    with get_handle(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/env_20220119.csv'
+Wed Jan 19 14:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42'}
+date: 20220119 - lon:126.681 / lat:34.876
+date: 20220118 - nx:55 / ny:68
+stnIds: 260 / date: 20220116 - 20220118
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-18 12:00', 'modelrun_updatetime_utc': '2022-01-18 19:42', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220119 - lon:126.681 / lat:34.876
+rtu_id: 0004_0001_W_0001
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/real.py", line 49, in <module>
+    env.to_csv("data/env_{}.csv".format(date), index=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/generic.py", line 3466, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 237, in save
+    with get_handle(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/env_20220119.csv'
+Wed Jan 19 16:00:00 KST 2022
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-19 00:00', 'modelrun_updatetime_utc': '2022-01-19 06:58'}
+date: 20220119 - lon:126.681 / lat:34.876
+date: 20220118 - nx:55 / ny:68
+stnIds: 260 / date: 20220116 - 20220118
+meta:  {'name': '', 'latitude': 34.88, 'longitude': 126.68, 'height': 30, 'timezone_abbrevation': 'KST', 'utc_timeoffset': 9.0, 'modelrun_utc': '2022-01-19 00:00', 'modelrun_updatetime_utc': '2022-01-19 06:58', 'kwp': None, 'slope': None, 'facing': None, 'tracking': None}
+date: 20220119 - lon:126.681 / lat:34.876
+rtu_id: 0004_0001_W_0001
+Traceback (most recent call last):
+  File "/Users/bellk/PycharmProjects/potal_asos/asos/real.py", line 49, in <module>
+    env.to_csv("data/env_{}.csv".format(date), index=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/generic.py", line 3466, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 237, in save
+    with get_handle(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/env_20220119.csv'
